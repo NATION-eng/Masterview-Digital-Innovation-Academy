@@ -49,9 +49,3 @@ Dashboard, Students, Instructors, Courses, Curriculum, Certificates, Payments, A
 
 ### Super Admin Portal (3 pages)
 Dashboard, All Users, Settings
-
-## API
-All API calls go through `src/services/api.ts`. Set `VITE_API_URL` in `.env` to point to your backend.
-
-## Mock Data
-All pages use static mock data — ready to wire up to the real API once the backend is running.
