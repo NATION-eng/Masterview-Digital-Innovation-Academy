@@ -14,6 +14,12 @@ const config: Config = {
         accent: { 400:'#fbbf24',500:'#F59E0B',600:'#d97706' },
         ink: { 900:'#060C1A',800:'#0F1A2E',700:'#142035',600:'#1A2744',500:'#243356' },
       },
+      opacity: {
+        '12': '0.12',
+        '15': '0.15',
+        '60': '0.60',
+        '70': '0.70',
+      },
       animation: {
         'fade-up':'fadeUp 0.6s ease-out forwards',
         'fade-in':'fadeIn 0.4s ease-out forwards',

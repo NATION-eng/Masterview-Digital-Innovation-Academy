@@ -15,6 +15,7 @@ import ProgramsPage from './pages/public/ProgramsPage'
 import AdmissionsPage from './pages/public/AdmissionsPage'
 import EventsPage from './pages/public/EventsPage'
 import BlogPage from './pages/public/BlogPage'
+import BlogPostPage from './pages/public/BlogPostPage'
 import ContactPage from './pages/public/ContactPage'
 import LoginPage from './pages/public/LoginPage'
 import RegisterPage from './pages/public/RegisterPage'
@@ -84,6 +85,7 @@ export default function App() {
         <Route path="/admissions" element={<AdmissionsPage />} />
         <Route path="/events" element={<EventsPage />} />
         <Route path="/blog" element={<BlogPage />} />
+        <Route path="/blog/:slug" element={<BlogPostPage />} />
         <Route path="/contact" element={<ContactPage />} />
         <Route path="/verify/:certNumber" element={<VerifyCertPage />} />
       </Route>
